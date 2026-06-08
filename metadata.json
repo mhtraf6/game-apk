@@ -1,0 +1,6 @@
+{
+  "name": "تحدي العباقرة",
+  "description": "تطبيق مسابقة ثقافية وتحدي معلومات باللغة العربية، يحتوي على أكثر من ١٠٠٠ سؤال مقسمة على عدة أقسام ومستويات تناسب الجميع مع حفظ مجريات اللعبة والنتائج العالية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

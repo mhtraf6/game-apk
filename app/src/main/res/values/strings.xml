@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">تحدي العباقرة</string>
+    <string name="start_game">ابدأ التحدي</string>
+    <string name="high_score">أعلى نتيجة: %d</string>
+    <string name="category_general">ثقافة عامة</string>
+    <string name="category_science">علوم وطبيعة</string>
+    <string name="category_history">تاريخ</string>
+    <string name="category_sports">رياضة</string>
+    <string name="category_geography">جغرافيا</string>
+    <string name="category_islamic">أسئلة إسلامية</string>
+    <string name="level_easy">سهل</string>
+    <string name="level_medium">متوسط</string>
+    <string name="level_hard">صعب</string>
+    <string name="select_level">اختر المستوى</string>
+    <string name="select_category">اختر القسم</string>
+    <string name="question_counter">السؤال: %1$d من %2$d</string>
+    <string name="score_counter">النتيجة: %1$d</string>
+    <string name="level_label">المستوى: %1$s</string>
+    <string name="category_label">القسم: %1$s</string>
+    <string name="congrats">تهانينا!</string>
+    <string name="game_over">انتهى التحدي!</string>
+    <string name="your_score">لقد حصلت على %1$d من %2$d!</string>
+    <string name="restart_game">العب مجدداً</string>
+    <string name="back_to_home">العودة للرئيسية</string>
+    <string name="loading">جاري تحميل الأسئلة...</string>
+    <string name="performance_excellent">أنت عبقري حقيقي! مذهل!</string>
+    <string name="performance_good">أداء رائع، استمر في التقدم!</string>
+    <string name="performance_average">أداء جيد، حاول تحسين نتيجتك!</string>
+    <string name="performance_poor">لا يأس، حاول مرة أخرى لتتعلم أكثر!</string>
+</resources>
