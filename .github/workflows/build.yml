@@ -21,7 +21,7 @@ jobs:
       uses: android-actions/setup-android@v3
 
     - name: Create debug keystore from file
-      run: base64 -d debug.keystore.base64 > app/debug.keystore
+      run: base64 -d debug.keystore.base64 > debug.keystore
 
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
