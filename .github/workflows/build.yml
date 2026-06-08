@@ -18,11 +18,9 @@ jobs:
         distribution: 'temurin'
 
     - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
-    - name: Generate debug keystore
-      run: |
-        keytool -genkeypair -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
-        mv debug.keystore app/debug.keystore
+      uses: android-actions/setup-android@v3   
+      - name: Create debug keystore from file
+      run: base64 -d debug.keystore.base64 > debug.keystore
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
